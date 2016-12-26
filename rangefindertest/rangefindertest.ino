@@ -18,4 +18,8 @@ void loop() {
     Serial.print("pingTime: ");
     Serial.print(pingTime);
     Serial.print("\n");
+    float distance = pingTime / 58.1;
+    Serial.print("distance: ");
+    Serial.print(distance);
+    Serial.print(" cm\n");
 }

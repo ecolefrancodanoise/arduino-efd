@@ -1,5 +1,5 @@
-int inputPin  = 12;    // define pin for sensor echo
-int outputPin = 13;    // define pin for sensor trig
+int inputPin  = 4;    // define pin for sensor echo
+int outputPin = 5;    // define pin for sensor trig
 
 
 void setup() {

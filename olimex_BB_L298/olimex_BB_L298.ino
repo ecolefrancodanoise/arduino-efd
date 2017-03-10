@@ -1,5 +1,16 @@
 /* 
  * Program to test the L298-based motor shield from Olimex
+ *
+ * Pins on the BB L298
+ *  1: VCC
+ *  2: ENABLE A
+ *  3: IN 1
+ *  4: In 2
+ *  5: ENABLE B
+ *  6: IN 3
+ *  7: IN 4
+ *  8: GND
+ *
  */
 
 const int ENABLE_A = 2;
